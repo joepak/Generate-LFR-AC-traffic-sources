@@ -8,11 +8,11 @@ const getPayload = ({ referrer, date, page, index }) => {
       keywords: '',
       languageId: 'en-GB',
       referrer,
-      timezoneOffset: '+01:00',
+      timezoneOffset: '-07:00',
       title: page.title,
       url: page.url,
       userAgent:
-        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36',
+        'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36',
       devicePixelRatio: '1',
       screenHeight: '1329',
       screenWidth: '1720',
@@ -21,7 +21,7 @@ const getPayload = ({ referrer, date, page, index }) => {
       experimentId: '',
       variantId: '',
     },
-    dataSourceId: '543899885739856621',
+    dataSourceId: '538338133330074426',
     events: [
       {
         applicationId: 'Page',
