@@ -1,6 +1,6 @@
 const getPayload = ({ referrer, date, page, index }) => {
   return {
-    channelId: '526694783752760762',
+    channelId: '9',
     context: {
       canonicalUrl: page.url,
       contentLanguageId: 'en-US',
